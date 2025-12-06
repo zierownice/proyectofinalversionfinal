@@ -3,13 +3,17 @@ import { ExchangeRates } from '../Home/ExchangeRates';
 import { Tracking } from '../Home/Tracking';
 import { FAQ } from '../Home/FAQ';
 
-export function Tools() {
+interface ToolsProps {
+  onNavigateToContact?: () => void;
+}
+
+export function Tools({ onNavigateToContact }: ToolsProps) {
   return (
     <div>
       <Weather />
       <ExchangeRates />
       <Tracking />
-      <FAQ />
+      <FAQ onNavigateToContact={onNavigateToContact} />
     </div>
   );
 }

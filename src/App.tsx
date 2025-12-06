@@ -82,7 +82,7 @@ function App() {
           )}
           {currentPage === 'tools' && (
             <div key="tools">
-              <Tools />
+              <Tools onNavigateToContact={() => handleNavigate('home', 'contact')} />
             </div>
           )}
           {currentPage === 'checkout' && (

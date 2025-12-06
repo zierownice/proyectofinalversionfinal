@@ -1,6 +1,10 @@
 import { ChevronDown, MessageCircle, Mail, Phone, Clock } from 'lucide-react';
 import { useState } from 'react';
 
+interface FAQProps {
+  onNavigateToContact?: () => void;
+}
+
 const faqItems = [
   {
     id: 1,
@@ -67,7 +71,7 @@ const supportChannels = [
   },
 ];
 
-export function FAQ() {
+export function FAQ({ onNavigateToContact }: FAQProps) {
   const [expandedId, setExpandedId] = useState<number | null>(null);
 
   return (
@@ -141,7 +145,10 @@ export function FAQ() {
           <p className="text-teal-100 mb-6">
             Nuestro equipo de soporte está listo para ayudarte
           </p>
-          <button className="bg-white text-teal-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
+          <button
+            onClick={onNavigateToContact}
+            className="bg-white text-teal-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors"
+          >
             Contactar Soporte
           </button>
         </div>
