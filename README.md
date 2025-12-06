@@ -354,3 +354,22 @@ Todas las tablas tienen políticas de Row Level Security habilitadas:
 - [ ] Analytics y reportes para administradores
 - [ ] API REST pública para terceros
 
+
+## Capturas
+
+<img width="1914" height="906" alt="Captura de pantalla 2025-12-05 223741" src="https://github.com/user-attachments/assets/a60ecdff-9c12-4c1f-a006-381e2983ef96" />
+
+<img width="1919" height="910" alt="Captura de pantalla 2025-12-05 223834" src="https://github.com/user-attachments/assets/a11048ae-d332-4653-89b8-67977845013d" />
+
+<img width="1919" height="909" alt="Captura de pantalla 2025-12-05 223903" src="https://github.com/user-attachments/assets/4d877d25-324f-4f79-b80d-951726b1f7e4" />
+
+## WEB VITALS
+
+<img width="1909" height="913" alt="Captura de pantalla 2025-12-05 224040" src="https://github.com/user-attachments/assets/4256fe77-cba2-4ee6-8e57-6b73967c5080" />
+
+<img width="1919" height="913" alt="Captura de pantalla 2025-12-05 224050" src="https://github.com/user-attachments/assets/f2750daa-17c4-42ce-9a93-692315292ab9" />
+
+
+
+
+
